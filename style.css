@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p, li {
+    color: #5c5855;
+    font-size: 18px;
+}
+
+li {
+    list-style-position: inside;
+    padding-left: 6px;
+    padding-top: 14px;
+    font-size: 18px;
+}
+
+h2 {
+    padding-top: 26px;
+    padding-bottom: 4px;
+    font-size: 30px;
+    color: #8f4738;
+}
+
+hr {
+    margin-top: 30px;
+    background-color: #5c5855;
+}
+
+body {
+    background: rgb(243, 229, 216);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-box {
+    width: 50%;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: 8% 0%;
+}
+
+.container-box .image-box {
+    width: 100%;
+
+}
+
+.container-box .image-box img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+.mobile-img {
+    display: none;
+}
+
+.content h1 {
+    font-size: 50px;
+    padding: 16px 0px;
+    font-family: Outfit;
+    color: #3a3938;
+}
+
+.content .preparationTime {
+    margin-top: 34px;
+    margin-bottom: 10px;
+    padding: 30px 36px;
+    background: #fff7fc;
+    border-radius: 16px;
+}
+
+.content .preparationTime h2{
+    padding-top: 0;
+    font-size: 24px;
+    color: #5e223c;
+}
+
+.content .preparationTime ul li{
+    padding-top: 12px;
+}
+
+.ingr-list {
+    padding-top: 16px;
+}
+
+.ingr-list p {
+    border-bottom: solid #72717196 1px ;
+    padding: 16px 0px;
+    padding-left: 40px;
+    font-size: 20px;
+    position: relative;
+}
+
+.ingr-list p:nth-child(4) {
+    border-bottom: solid #5c5855 0px ;
+}
+
+.ingr-list .ingr-weight {
+    color: #5e223c;
+    position: absolute;
+    left: 50%;
+}
+
+.attribution { 
+    font-size: 12px; 
+    text-align: center; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background: #fff;
+    }
+    .container-box {
+        width: 100%;
+        margin: 0px;
+        padding: 0;
+        border-radius: 0px;
+    }
+
+    .container-box .image-box {
+        display: none;
+    }
+    
+    .mobile-img {
+        display: block;
+        width: 100%;
+    }
+
+    .content {
+        padding: 30px;
+    }
+
+    .content h1 {
+        font-size: 38px;
+    }
+    
+}

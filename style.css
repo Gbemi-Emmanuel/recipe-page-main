@@ -7,6 +7,7 @@
 p, li {
     color: #5c5855;
     font-size: 18px;
+    font-family: outfit;
 }
 
 li {
@@ -21,6 +22,8 @@ h2 {
     padding-bottom: 4px;
     font-size: 30px;
     color: #8f4738;
+    font-family: young serif;
+    font-weight: 400;
 }
 
 hr {
@@ -63,8 +66,9 @@ body {
 .content h1 {
     font-size: 50px;
     padding: 16px 0px;
-    font-family: Outfit;
+    font-family: Young serif;
     color: #3a3938;
+    font-weight: 400;
 }
 
 .content .preparationTime {
@@ -145,4 +149,10 @@ body {
         font-size: 38px;
     }
     
+}
+
+@media screen and (max-width: 400px) {
+    .content h1 {
+        font-size: 32px;
+    }
 }
